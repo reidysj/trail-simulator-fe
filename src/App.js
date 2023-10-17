@@ -1,7 +1,13 @@
 import "./App.css";
+import { ChakraProvider } from "@chakra-ui/react";
+import Nav from "./pages/landing/components/Nav";
 
 function App() {
-  return <h1>Hello, World</h1>;
+  return (
+    <ChakraProvider>
+      <Nav></Nav>
+    </ChakraProvider>
+  );
 }
 
 export default App;
