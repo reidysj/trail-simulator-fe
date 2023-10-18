@@ -1,0 +1,28 @@
+.info {
+  background: #1c4532;
+  color: white;
+  font-size: 7rem;
+  height: 75vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 70% 20% 10%;
+}
+
+.appScreenShot {
+  margin-top: 15%;
+  margin-left: 25%;
+  transform: skew(-15deg);
+  height: 99%;
+}
+
+.cta {
+  margin-left: 10%;
+  margin-top: 10%;
+  text-align: center;
+}
+
+.ctaButtons {
+  margin-left: 15%;
+  align-self: center;
+  padding: 0;
+}
